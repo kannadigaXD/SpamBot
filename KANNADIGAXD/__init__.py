@@ -17,7 +17,7 @@ print("[KANNADIGA] Version Check is being Processed")
 #VERSION
 deadlyversion = "v3.0.0"
 
-print("[DEADLY] Booting sudolist") 
+print("[KANNADIGA] Booting sudolist") 
 #SUDOERS
 SUDOERS = config.SUDO_USER
 SUDOERS.append(OWNER_ID) 
