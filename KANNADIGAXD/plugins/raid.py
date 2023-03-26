@@ -7,7 +7,7 @@ import config
 from telethon import events
 from telethon import functions, types
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
-from resources.data import RAID, REPLYRAID, DEADLYSPAM, BRTHSPAM
+from resources.data import RAID, REPLYRAID, KANNADIGAXD, BRTHSPAM
 from KANNADIGAXD import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, SUDOERS
 
 
@@ -38,7 +38,7 @@ async def spam(e):
             user = str(Deadly[1])
             a = await e.client.get_entity(user)
             g = a.id
-            if int(g) in DEADLYSPAM:
+            if int(g) in KANNADIGAXD:
                 text = f"» ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴋᴀɴɴᴀᴅɪɢᴀ xᴅ ᴄʀᴇᴀᴛᴏʀ !"
                 await e.reply(text)
             elif int(g) == config.OWNER_ID:
