@@ -12,7 +12,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 
-path = "DEADLYSPAM/plugins/*.py"
+path = "KANNADIGAXD/plugins/*.py"
 files = glob.glob(path)
 for name in files:
     with open(name) as a:
