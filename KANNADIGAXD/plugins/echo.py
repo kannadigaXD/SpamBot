@@ -27,7 +27,7 @@ async def echo(event):
      if event.reply_to_msg_id is not None:
             reply_msg = await event.get_reply_message()
             user_id = reply_msg.sender_id
-            if int(user_id) in DEADLYSPAM:
+            if int(user_id) in KANNADIGAXD:
                     text = "**ᴄᴀɴɴᴏᴛ ᴇᴄʜᴏ ᴏɴ ᴋᴀɴɴᴀᴅɪɢᴀ xᴅ-ꜱᴘᴀᴍʙᴏᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀꜱ !**"
                     await event.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) == config.OWNER_ID:
