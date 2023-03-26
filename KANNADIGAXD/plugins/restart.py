@@ -1,5 +1,5 @@
 import os
-from DEADLYSPAM import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, SUDOERS
+from KANNADIGAXD import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, SUDOERS
 import config 
 from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon import events
@@ -20,7 +20,7 @@ hl = config.CMD_HNDLR
 async def restart(event):
     await event.delete() 
     if event.sender_id in SUDOERS:
-        await event.reply(f"**ᴅᴇᴀᴅʟʏ-ꜱᴘᴀᴍʙᴏᴛ 🔥: ʀᴇꜱᴛᴀʀᴛɪɴɢ!**")
+        await event.reply(f"**ᴋᴀɴɴᴀᴅɪɢᴀ xᴅ-ꜱᴘᴀᴍʙᴏᴛ 🔥: ʀᴇꜱᴛᴀʀᴛɪɴɢ!**")
         try:
             await BOT0.disconnect()
         except Exception:
