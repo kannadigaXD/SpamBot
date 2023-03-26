@@ -6,9 +6,9 @@ from telethon.tl.custom import button
 PIC = config.ALIVE_PIC
 
 if config.ALIVE_PIC:
-    DEADLY_PIC = PIC
+    KANNADIGA_PIC = PIC
 else:
-    DEADLY_PIC = "https://telegra.ph/file/c6f99c0b68ff07439ed72.jpg"
+    KANNADIGA_PIC = "https://telegra.ph/file/5b8d9c29fde33940314bb.jpg"
 
 hl = config.CMD_HNDLR
 
@@ -25,6 +25,6 @@ KANNADIGA += f"═══════════════════\n\n"
 async def alive(event): 
   if event.sender_id in SUDOERS:
      Blaze = [[Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/ABOUTAGORA"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DO_JISM_EK_JAAN_OP")], [Button.url("• ʀᴇᴘᴏ •", "https://github.com/kannadigaXD/Spambot")]]
-     await BOT0.send_file(event.chat_id, DEADLY_PIC, caption=DEADLY, buttons=Blaze) 
+     await BOT0.send_file(event.chat_id, KANNADIGA_PIC, caption=KANNADIGA, buttons=Blaze) 
   else:
       await event.reply("**kannadiga xd bots are ready!**") 
