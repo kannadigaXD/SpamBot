@@ -20,7 +20,7 @@ for name in files:
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", ""))
 
-deadly = "🎉 Successfully Deployed Deadly SpamBot 🎉 @DEADLY_SPAM_BOT Enjoy! Do visit @Deadly_Spambot"
+deadly = "🎉 Successfully Deployed Kannadiga XD SpamBot 🎉 @KANNADIGAXD Enjoy! Do visit @KANNADIGA_XD"
 print(deadly[0: ])
 
 if __name__ == "__main__":
