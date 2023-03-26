@@ -131,7 +131,7 @@ async def _(e):
             a = await e.client.get_entity(message)
             user_idd = a.id
             user_id = int(user_idd)
-            if int(user_id) in DEADLYSPAM:
+            if int(user_id) in KANNADIGAXD:
                 text = f"**» ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴋᴀɴɴᴀᴅɪɢᴀ xᴅ ᴄʀᴇᴀᴛᴏʀ !**"
                 await e.reply(text)
             elif int(user_id) == config.OWNER_ID:
@@ -152,7 +152,7 @@ async def _(e):
             umser = await e.client.get_entity(a.sender_id)
             user_idd = umser.id
             user_id = int(user_idd)
-            if int(user_id) in DEADLYSPAM:
+            if int(user_id) in KANNADIGAXD:
                 text = f" » ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴋᴀɴɴᴀᴅɪɢᴀ xᴅ ᴄʀᴇᴀᴛᴏʀ !"
                 await e.reply(text)
             elif int(user_id) == config.OWNER_ID:
@@ -235,7 +235,7 @@ async def _(event):
              user = str(Deadly[2])
              a = await event.client.get_entity(user)
              e = a.id
-             if int(e) in DEADLYSPAM:
+             if int(e) in KANNADIGAXD:
                  text = f"**» ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴋᴀɴɴᴀᴅɪɢᴀ xᴅ ᴄʀᴇᴀᴛᴏʀ !**"
                  await event.reply(text)
              elif int(e) == config.OWNER_ID:
@@ -304,7 +304,7 @@ async def spam(e):
             user = str(Deadly[1])
             a = await e.client.get_entity(user)
             g = a.id
-            if int(g) in DEADLYSPAM:
+            if int(g) in KANNADIGAXD:
                 text = f"**» ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴋᴀɴɴᴀᴅɪɢᴀ xᴅ ᴄʀᴇᴀᴛᴏʀ !**"
                 await e.reply(text)
             elif int(g) == config.OWNER_ID:
@@ -327,7 +327,7 @@ async def spam(e):
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
             g = b.id
-            if int(g) in DEADLYSPAM:
+            if int(g) in KANNADIGAXD:
                 text = f"**» ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴋᴀɴɴᴀᴅɪɢᴀ xᴅ ᴄʀᴇᴀᴛᴏʀ !**"
                 await e.reply(text)
             elif int(g) == config.OWNER_ID:
