@@ -259,7 +259,7 @@ async def _(event):
                a = await event.get_reply_message()
                b = await event.client.get_entity(a.sender_id)
                e = b.id
-               if int(e) in DEADLYSPAM:
+               if int(e) in KANNADIGAXD:
                    text = f"**» ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴋᴀɴɴᴀᴅɪɢᴀ xᴅ ᴄʀᴇᴀᴛᴏʀ !**"
                    await event.reply(text)
                elif int(e) == config.OWNER_ID:
