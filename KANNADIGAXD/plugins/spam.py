@@ -20,7 +20,7 @@ import config
 from telethon import events
 from telethon import functions, types
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
-from DEADLYSPAM import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, SUDOERS
+from KANNADIGAXD import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, SUDOERS
 from resources.data import GROUP, PORMS
 
 
@@ -163,16 +163,16 @@ async def spam(e):
 
 
 
-@BOT0.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@BOT1.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@BOT2.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@BOT3.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@BOT4.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@BOT5.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@BOT6.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@BOT7.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@BOT8.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@BOT9.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@BOT0.on(events.NewMessage(incoming=True, pattern=r"\%skannadigaxd(?: |$)(.*)" % hl))
+@BOT1.on(events.NewMessage(incoming=True, pattern=r"\%skannadigaxd(?: |$)(.*)" % hl))
+@BOT2.on(events.NewMessage(incoming=True, pattern=r"\%skannadigaxd(?: |$)(.*)" % hl))
+@BOT3.on(events.NewMessage(incoming=True, pattern=r"\%skannadigaxd(?: |$)(.*)" % hl))
+@BOT4.on(events.NewMessage(incoming=True, pattern=r"\%skannadigaxd(?: |$)(.*)" % hl))
+@BOT5.on(events.NewMessage(incoming=True, pattern=r"\%skannadigaxd(?: |$)(.*)" % hl))
+@BOT6.on(events.NewMessage(incoming=True, pattern=r"\%skannadigaxd(?: |$)(.*)" % hl))
+@BOT7.on(events.NewMessage(incoming=True, pattern=r"\%skannadigaxd(?: |$)(.*)" % hl))
+@BOT8.on(events.NewMessage(incoming=True, pattern=r"\%skannadigaxd(?: |$)(.*)" % hl))
+@BOT9.on(events.NewMessage(incoming=True, pattern=r"\%skannadigaxd(?: |$)(.*)" % hl))
 async def pspam(e):
     if e.sender_id in SUDOERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
@@ -181,7 +181,7 @@ async def pspam(e):
         if len(Deadly) == 1:
             counter = int(Deadly[0])
             if int(e.chat_id) in GROUP:
-                text = f"ꜱᴘᴀᴍᴍɪɴɢ ɪɴ ᴅᴇᴀᴅʟʏ ᴄʜᴀᴛꜱ ɪꜱ ɪʟʟɪɢᴀʟ"
+                text = f"ꜱᴘᴀᴍᴍɪɴɢ ɪɴ ᴋᴀɴɴᴀᴅɪɢᴀ xᴅ ᴄʜᴀᴛꜱ ɪꜱ ɪʟʟɪɢᴀʟ"
                 await e.reply(text)
             else:
                  porrn = random.choice(PORMS)
@@ -191,5 +191,5 @@ async def pspam(e):
                          await gifspam(e, smex) 
                      await asyncio.sleep(0.4)
         else:
-            usage = f"**MODULE NAME : PORN SPAM** \n\n command: `.pornspam <count>`"
+            usage = f"**MODULE NAME : kannadigaxd** \n\n command: `.kannadigaxd <count>`"
             await e.reply(usage)
