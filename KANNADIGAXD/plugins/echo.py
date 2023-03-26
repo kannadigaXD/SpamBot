@@ -6,8 +6,8 @@ import requests
 from telethon import events
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 
-from DEADLYSPAM import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, SUDOERS, ECHOUSER
-from resources.data import GROUP, DEADLYSPAM
+from KANNADIGAXD import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, SUDOERS, ECHOUSER
+from resources.data import GROUP, KANNADIGAXD
 
 hl = config.CMD_HNDLR
 
@@ -28,7 +28,7 @@ async def echo(event):
             reply_msg = await event.get_reply_message()
             user_id = reply_msg.sender_id
             if int(user_id) in DEADLYSPAM:
-                    text = "**ᴄᴀɴɴᴏᴛ ᴇᴄʜᴏ ᴏɴ ᴅᴇᴀᴅʟʏ-ꜱᴘᴀᴍʙᴏᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀꜱ !**"
+                    text = "**ᴄᴀɴɴᴏᴛ ᴇᴄʜᴏ ᴏɴ ᴋᴀɴɴᴀᴅɪɢᴀ xᴅ-ꜱᴘᴀᴍʙᴏᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀꜱ !**"
                     await event.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) == config.OWNER_ID:
                     text = f"ᴄᴀɴɴᴏᴛ ᴇᴄʜᴏ ᴏɴ ᴏᴡɴᴇʀ !"
@@ -40,7 +40,7 @@ async def echo(event):
                      await event.reply("**» ᴜꜱᴇʀ ᴀʟʀᴇᴀᴅʏ ɪɴ ᴇᴄʜᴏʟɪꜱᴛ !!**")
                      return
             ECHOUSER.append(user_id) 
-            await event.reply("ᴇᴄʜᴏ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ✅")
+            await event.reply("ᴇᴄʜᴏ ᴀᴄᴛɪᴠᴀᴛᴇᴅ-ᴋᴀɴɴᴀᴅɪɢᴀ xᴅ ✅")
      else:
          await event.reply(usage)
 
