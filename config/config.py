@@ -10,11 +10,11 @@ API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH")
 
 # ADMIN DETAILS (Your ID) 
-OWNER_ID = int(getenv("OWNER_ID", ""))
+OWNER_ID = int(getenv("OWNER_ID", "8432556224"))
 
 OWNER_NAME = getenv("OWNER_NAME") 
 SUDO_USER= list(
-    map(int, getenv("SUDO_USER", "6181817811").split())
+    map(int, getenv("SUDO_USER", "8432556224").split())
 )
 # BOT TOKEN CONFIG VARS (get all vars detail from @botfather) 
 BOT_TOKEN = getenv("BOT_TOKEN", None) 
