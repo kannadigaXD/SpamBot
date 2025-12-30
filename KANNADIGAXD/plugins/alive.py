@@ -24,7 +24,7 @@ KANNADIGA += f"═══════════════════\n\n"
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
 async def alive(event): 
   if event.sender_id in SUDOERS:
-     Blaze = [[Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/ABOUTAGORA"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DO_JISM_EK_JAAN_OP")], [Button.url("• ʀᴇᴘᴏ •", "https://github.com/kannadigaXD/Spambot")]]
+     Blaze = [[Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/ABOUT_SHAAN"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/KARUNADA_KINGS_KINGDOM")], [Button.url("• ʀᴇᴘᴏ •", "https://t.me/karunadaking")]]
      await BOT0.send_file(event.chat_id, KANNADIGA_PIC, caption=KANNADIGA, buttons=Blaze) 
   else:
       await event.reply("**kannadiga xd bots are ready!**") 
