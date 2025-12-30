@@ -16,17 +16,17 @@ OWNER_INFO = config.OWNER_NAME
 if config.OWNER_NAME:
     OWNER_NAME = OWNER_INFO
 else:
-    OWNER_NAME = "KANNADIGA XD"
+    OWNER_NAME = "KARANADU KING"
 
 OWNER_ID = config.OWNER_ID
 
 KannadigaXD_Button = [
         [
-        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/ABOUTAGORA"),
-        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/KANNADIGA_XD")
+        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/ABOUT_SHAAN"),
+        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/KARUNADA_KINGS_KINGDOM")
         ],
         [
-        Button.url("• Rᴇᴘᴏ •", "https://t.me/do_jism_ek_jaan_op")
+        Button.url("• Rᴇᴘᴏ •", "https://t.me/KARUNADAKING")
         ]
         ]
         
@@ -50,7 +50,7 @@ async def start(e):
         user_id = e.sender_id
         mention = f"[{name}](tg://user?id={user_id})"
         myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
-        creator = f"[ᴅᴀᴅᴅʏ👅](tg://user?id={6181817811})"
+        creator = f"[ᴅᴀᴅᴅʏ👅](tg://user?id={8432556224})"
         KANNADIGA_ON = f"""
 ʜᴇʏ {mention},
 ᴛʜɪs ɪs ᴋᴀɴɴᴀᴅɪɢᴀ xᴅ sᴘᴀᴍʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
