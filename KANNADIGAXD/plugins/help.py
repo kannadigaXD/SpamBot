@@ -27,11 +27,11 @@ KANNADIGA_HELP += f" `!raid` - to raid\n `!replyraid` - to active reply raid\n `
 
 KANNADIGA_HELP += f" !kannadigaxd - ɪ ᴡɪʟʟ ꜱᴜɢɢᴇꜱᴛ ᴅᴏɴ'ᴛ ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ😂 ↧\n\n"
 
-KANNADIGA_HELP += f"© @AGOUTAGORA\n"
+KANNADIGA_HELP += f"© @karunada_kings_kingdom\n"
 
 
 @BOT0.on(events.NewMessage(incoming=True, pattern='/help'))
 async def help(event):               
     if event.sender_id in SUDOERS:
-       blaze = [[Button.url("ᴅᴀᴅᴅʏ👅", "https://t.me/aboutagora"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/kannadiga_xd")]]
+       blaze = [[Button.url("ᴅᴀᴅᴅʏ👅", "https://t.me/karunada_kings_kingdom"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/about_shaan")]]
        await BOT0.send_file(event.chat_id, HELP_PIC, caption=KANNADIGA_HELP, buttons=blaze) 
